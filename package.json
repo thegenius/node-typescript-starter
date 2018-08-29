@@ -5,7 +5,7 @@
   "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node-dev ./build/index.js"
+    "dev": "tsc & node-dev ./build/index.js"
   },
   "author": "wang wei",
   "license": "MIT",
